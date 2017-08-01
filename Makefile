@@ -123,32 +123,32 @@ alpha/fast:
 	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/build
 .PHONY : alpha/fast
 
-alpha.o: alpha.cpp.o
+src/alpha.o: src/alpha.cpp.o
 
-.PHONY : alpha.o
+.PHONY : src/alpha.o
 
 # target to build an object file
-alpha.cpp.o:
-	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/alpha.cpp.o
-.PHONY : alpha.cpp.o
+src/alpha.cpp.o:
+	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/src/alpha.cpp.o
+.PHONY : src/alpha.cpp.o
 
-alpha.i: alpha.cpp.i
+src/alpha.i: src/alpha.cpp.i
 
-.PHONY : alpha.i
+.PHONY : src/alpha.i
 
 # target to preprocess a source file
-alpha.cpp.i:
-	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/alpha.cpp.i
-.PHONY : alpha.cpp.i
+src/alpha.cpp.i:
+	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/src/alpha.cpp.i
+.PHONY : src/alpha.cpp.i
 
-alpha.s: alpha.cpp.s
+src/alpha.s: src/alpha.cpp.s
 
-.PHONY : alpha.s
+.PHONY : src/alpha.s
 
 # target to generate assembly for a file
-alpha.cpp.s:
-	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/alpha.cpp.s
-.PHONY : alpha.cpp.s
+src/alpha.cpp.s:
+	$(MAKE) -f CMakeFiles/alpha.dir/build.make CMakeFiles/alpha.dir/src/alpha.cpp.s
+.PHONY : src/alpha.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... alpha"
-	@echo "... alpha.o"
-	@echo "... alpha.i"
-	@echo "... alpha.s"
+	@echo "... src/alpha.o"
+	@echo "... src/alpha.i"
+	@echo "... src/alpha.s"
 .PHONY : help
 
 
