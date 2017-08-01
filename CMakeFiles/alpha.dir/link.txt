@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/alpha.dir/alpha.cpp.o  -o alpha -rdynamic 

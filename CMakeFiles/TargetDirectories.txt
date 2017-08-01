@@ -1,3 +1,0 @@
-/home/ubuntu/alpha/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/alpha/CMakeFiles/edit_cache.dir
-/home/ubuntu/alpha/CMakeFiles/alpha.dir
